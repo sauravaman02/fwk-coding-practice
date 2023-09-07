@@ -1,7 +1,6 @@
 package top_interview_questions.backtracking;
 
 import java.util.ArrayList;
-import java.util.LinkedList;
 import java.util.List;
 
 /**
