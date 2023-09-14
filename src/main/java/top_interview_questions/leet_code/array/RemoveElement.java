@@ -1,4 +1,4 @@
-package top_interview_questions.array_string;
+package top_interview_questions.leet_code.array;
 
 /**
  * Given an integer array nums and an integer val, remove all occurrences of val in nums in-place.

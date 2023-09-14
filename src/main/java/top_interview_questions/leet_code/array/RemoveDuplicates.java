@@ -1,4 +1,4 @@
-package top_interview_questions.array_string;
+package top_interview_questions.leet_code.array;
 
 /**
  * Given an integer array nums sorted in non-decreasing order, remove the duplicates in-place such that each unique

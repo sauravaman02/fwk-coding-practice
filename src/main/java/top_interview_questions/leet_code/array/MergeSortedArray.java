@@ -1,4 +1,4 @@
-package top_interview_questions.array_string;
+package top_interview_questions.leet_code.array;
 
 import java.util.Arrays;
 
