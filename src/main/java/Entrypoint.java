@@ -4,8 +4,10 @@ public class Entrypoint {
 
     public static void main(String[] args) {
 
-        HeightChecker numbersWithEvenDigits = new HeightChecker();
-        numbersWithEvenDigits.heightChecker(new int[]{1,1,4,2,1,3});
+        NumbersDissapearedInArray numbersWithEvenDigits = new NumbersDissapearedInArray();
+        for (int num: numbersWithEvenDigits.findDisappearedNumbers(new int[]{4,3,2,7,8,2,3,1})) {
+            System.out.println(num);
+        }
 
 
     }
