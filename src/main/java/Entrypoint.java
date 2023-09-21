@@ -1,13 +1,12 @@
 import top_interview_questions.leet_code.array.*;
+import top_interview_questions.leet_code.daily_problem.MedianOfTwoSortedArray;
 
 public class Entrypoint {
 
     public static void main(String[] args) {
 
-        NumbersDissapearedInArray numbersWithEvenDigits = new NumbersDissapearedInArray();
-        for (int num: numbersWithEvenDigits.findDisappearedNumbers(new int[]{4,3,2,7,8,2,3,1})) {
-            System.out.println(num);
-        }
+        MedianOfTwoSortedArray numbersWithEvenDigits = new MedianOfTwoSortedArray();
+        System.out.println(numbersWithEvenDigits.findMedianSortedArrays(new int[]{}, new int[]{3,4}));
 
 
     }
