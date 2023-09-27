@@ -1,14 +1,15 @@
-import top_interview_questions.leet_code.array.*;
-import top_interview_questions.leet_code.daily_problem.IsSubsequence;
-import top_interview_questions.leet_code.daily_problem.MedianOfTwoSortedArray;
+
+import top_interview_questions.sorting.InsertionSort;
 
 public class Entrypoint {
 
     public static void main(String[] args) {
 
-        IsSubsequence numbersWithEvenDigits = new IsSubsequence();
-//        System.out.println(numbersWithEvenDigits.findMedianSortedArrays(new int[]{}, new int[]{3,4}));
-        numbersWithEvenDigits.isSubsequence("", "ahbgdc");
+        InsertionSort numbersWithEvenDigits = new InsertionSort();
+
+        for (int num: numbersWithEvenDigits.sort(new int[]{2, 8, 5, 3, 9, 4, 1})) {
+            System.out.println(num);
+        }
 
 
     }
