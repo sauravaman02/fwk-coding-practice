@@ -1,15 +1,14 @@
 
+import top_interview_questions.leet_code.daily_problem.DecodedStringIndex;
 import top_interview_questions.sorting.InsertionSort;
 
 public class Entrypoint {
 
     public static void main(String[] args) {
 
-        InsertionSort numbersWithEvenDigits = new InsertionSort();
+        DecodedStringIndex numbersWithEvenDigits = new DecodedStringIndex();
 
-        for (int num: numbersWithEvenDigits.sort(new int[]{2, 8, 5, 3, 9, 4, 1})) {
-            System.out.println(num);
-        }
+        numbersWithEvenDigits.decodeAtIndex("leet2code3", 10);
 
 
     }
