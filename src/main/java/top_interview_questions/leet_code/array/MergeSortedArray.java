@@ -52,7 +52,7 @@ import java.util.Arrays;
 public class MergeSortedArray {
 
     /**
-     * Time complexity o((m+n)log(m=n))
+     * Time complexity o((m+n)log(m+n))
      * */
     public void merge(int[] nums1, int m, int[] nums2, int n) {
 
