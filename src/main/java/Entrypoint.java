@@ -4,15 +4,29 @@ import top_interview_questions.sorting.InsertionSort;
 import top_interview_questions.sorting.MergeSort;
 import top_interview_questions.sorting.SelectionSort;
 
+import java.util.Scanner;
+
 public class Entrypoint {
 
     public static void main(String[] args) {
 
-        MergeSort numbersWithEvenDigits = new MergeSort();
+        int sumEven = 0;
+        int sumOdd = 0;
 
-        for (int num : numbersWithEvenDigits.sort(new int[] {2, 5, 3, 7, 1, 9, 8})) {
-            System.out.println(num);
+        Scanner sc = new Scanner(System.in);
+        int num = 430;
+
+        while(num > 0) {
+            int curr_number = num % 10;
+
+            if(curr_number % 2 == 0)
+                sumEven+=curr_number;
+            else
+                sumOdd+=curr_number;
+
+            num/=10;
         }
+        System.out.println(sumEven+" "+sumOdd);
 
 
 
