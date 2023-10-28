@@ -151,12 +151,12 @@ public class Practice {
 
         Arrays.stream(mergeSort(new int[]{25, 16, 3, 99, 87, 65, 1})).forEach(System.out::println);
 
-//        int num = 100;
-//        while (num > 0) {
-//            System.out.println(fib(num--));
-//        }
-//
-//        characterHashing("hello");
+        int num = 100;
+        while (num > 0) {
+            System.out.println(fib(num--));
+        }
+
+        characterHashing("hello");
 
     }
 }
