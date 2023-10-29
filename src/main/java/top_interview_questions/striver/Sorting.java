@@ -248,10 +248,5 @@ public class Sorting {
     public static void main(String[] args) {
         Arrays.stream(quickSort( new int[]{3, 168, 235, 626, 545, 684, 312, 452, 626, 403, 163, 188, 566, 744, 646,
                 126, 629, 847, 522, 445, 237, 128, 891, 118, 14}, 0, 24)).forEach(System.out::println);
-
-//        25
-//        3 168 235 626 545 684 312 452 626 403 163 188 566 744 646 126 629 847 522 445 237 128 891 118 14
-
-
     }
 }
